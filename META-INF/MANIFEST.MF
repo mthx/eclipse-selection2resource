@@ -3,5 +3,12 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Selection To Resource Plug-in
 Bundle-SymbolicName: net.hillsdon.eclipse.selection2resource
 Bundle-Version: 1.0.0
-Bundle-Vendor: Matt Hillsdon
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: net.hillsdon.eclipse.selection2resource
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.jdt.core,
+ org.eclipse.jface.text,
+ org.eclipse.ui.ide,
+ org.eclipse.team.ui,
+ org.eclipse.core.resources;bundle-version="3.4.1",
+ org.eclipse.core.runtime;bundle-version="3.4.0"
