@@ -26,7 +26,7 @@ import org.eclipse.ui.IWorkbench;
 
 /**
  * Adapts various common IDE selections to resources.
- * 
+ *
  * @author mth
  */
 public class ResourceSelection implements IResourceSelection {
@@ -59,6 +59,7 @@ public class ResourceSelection implements IResourceSelection {
     }
 
     // Beautiful... oh for IHasCorrespondingResource.
+    // Perhaps IAdaptable will take care of the first two?
     if (selected instanceof IResource) {
       return (IResource) selected;
     }
